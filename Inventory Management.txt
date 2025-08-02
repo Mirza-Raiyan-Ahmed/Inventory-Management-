@@ -1,0 +1,45 @@
+Inventory Management System
+Project Description
+This Excel workbook functions as a complete inventory management system, designed to help a business track its products, monitor stock levels, and make informed reordering decisions. It integrates product, supplier, and sales data to provide a clear, real-time picture of inventory health. The system is built for easy data entry and powerful analysis, making it an essential tool for maintaining optimal stock levels.
+
+Key Features
+Stock Status Monitoring: The Inventory and Status sheets automatically update to show which products are "OK" and which "Reorder Needed."
+
+Comprehensive Dashboard: The Dashboard sheet provides a high-level summary of inventory by category, including total stock, average price, and the number of products needing reorder.
+
+Sales Trend Analysis: Pivot tables are used to analyze sales over the last two months, helping to identify trends and forecast future demand.
+
+Supplier Information: The workbook includes a dedicated Suppliers sheet, linking products to their suppliers for easy reordering.
+
+Calculated Metrics: Key metrics like Months of Inventory, Inventory Value, and Sales Trend are calculated using formulas.
+
+Technologies Used
+Microsoft Excel
+
+Pivot Tables and Pivot Charts
+
+Data Validation and Formulas
+
+How to Use
+Inventory Data: Update the Inventory sheet with the latest stock counts and sales figures.
+
+Supplier Details: The Suppliers sheet is a reference table. Ensure it's kept up to date.
+
+Check Status: The Status sheet is a lookup table that uses formulas to determine if a product's current stock is below its reorder level.
+
+Analyze the Dashboard: The Dashboard and Summary sheets provide the most important insights. They are automatically updated when the underlying data is changed.
+
+Data Fields
+The core Inventory data includes the following columns:
+
+Product ID: Unique identifier for each product.
+
+Product Name: The name of the product.
+
+Current Stock: The current quantity on hand.
+
+Reorder Level: The threshold below which a product should be reordered.
+
+Unit Price: The cost of a single unit.
+
+Sales Last Month and Sales Month Before Last: Historical sales data for trend analysis.
